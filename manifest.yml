@@ -5,7 +5,7 @@ declared-services:
     plan: advanced
   wdna-cloudant:
     label: cloudantNoSQLDB
-    plan: standard
+    plan: Standard
 applications:
 - path: ./app
   name: watson-discovery-news-alerting
