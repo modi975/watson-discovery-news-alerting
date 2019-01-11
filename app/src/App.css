@@ -1,0 +1,252 @@
+body {
+  font-size: 13px !important;
+  line-height: 1.2;
+}
+
+label.clickable-tab {
+  min-width: 100%;
+}
+
+#alertCompanyName, #eventCompanyName, #brandCompanyName {
+  background-color: #f4f4f4;
+}
+
+label[for="emailAddress"], label[htmlFor="emailAddress"] {
+  margin: 0px;
+}
+
+.center-text {
+  text-align: justify;
+}
+
+.input-inherit {
+  position: inherit !important;
+  left: inherit !important;
+  margin-left: 0px !important;
+  top: inherit !important;
+}
+
+.example-col {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem;
+  float: left;
+}
+
+.example {
+  min-height: 250px;
+}
+
+/* .container {
+  min-height: 400px;
+} */
+
+.extra-right-space {
+  margin-right: 0.5em;
+}
+
+p {
+  justify-content: stretch !important;
+}
+
+.row {
+  display: flex !important;
+  /* justify-content: space-between !important; */
+}
+
+.loader {
+  border: 10px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 10px solid #3498db;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.form-inline > .form-group, .form-inline > .form-group > label {
+  margin-right: 5px;
+}
+
+.card-col {
+  border: 1px solid grey;
+  /*padding: 0.5rem;*/
+  /* margin: 1rem; */
+  border-radius: 4px;
+  float: left;
+}
+
+.no-margin {
+  margin: 0px !important;
+}
+
+.no-padding {
+  padding: 0px !important;
+}
+/* font and padding size changed in breadcrumbs */
+.breadcrumbs{
+  padding-top: 24px;
+}
+/* logo spacing */
+img{  
+  padding-left: 20px;
+}
+.list-group-item{
+  height: 36px;
+  background-color: #f8f8f8;
+  border: 1px solid #ffffff;
+}
+h4{
+  text-align: center;
+  font-size: 16px;
+}
+.input-group{
+  float: left;
+}
+/* form input size*/
+.form-group-sm .form-control{
+  width: 20% !important;
+}
+.navbar {
+  margin-bottom: 5px !important; 
+}
+.custom-height {
+  height: 28px !important;
+  padding: 3px 10px !important;
+}
+
+.chatbox {
+  position: fixed;
+  bottom: 75px;
+  right: 20px;
+  width: 250px;
+}
+
+.chatbox ::-webkit-scrollbar {
+  display: none;
+}
+
+.chatbox .form-group {
+  width: 100% !important;
+  margin-right: 0px !important;
+  position: relative !important;
+}
+
+.chatbox .form-control {
+  border: 0px solid grey !important;
+  border-radius: 0px !important;
+  border-bottom-left-radius: 4px !important;
+  border-bottom-right-radius: 4px !important;
+  width: 100% !important;
+  padding-right: 45px !important;
+}
+.chatbox .panel.panel-info {
+  border-color: #35d2f3;
+}
+
+.chatbox .panel.panel-info .panel-heading {
+  color: #fff;
+  background-color: #83ccf1;
+  border-color: #35d2f3;
+}
+.chatbutton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50% !important;
+  height: 40px !important;
+  width: 40px !important;
+}
+.chatbutton:focus {
+  outline: none;
+  outline-offset: unset;
+}
+
+.chatbuttonanim-enter {
+  opacity: 0.05;
+}
+
+.chatbuttonanim-enter.chatbuttonanim-enter-active {
+  opacity: 1;
+  transition: opacity 800ms ease-in;
+}
+
+.chatbuttonanim-exit {
+  opacity: 1;
+}
+
+.chatbuttonanim-exit.chatbuttonanim-exit-active {
+  opacity: 0.05;
+  transition: opacity 800ms ease-in;
+}
+
+
+.chatboxanim {
+  height: 0px;
+  transition: height 0.3s;
+}
+
+.chatboxanim-active {
+  height: 360px;
+  transition: height 0.5s;
+}
+.chat-button {
+  width: 34px !important;
+}
+
+.message {
+  overflow: auto;
+}
+.message .message-text {
+  float: right;
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 20px;
+}
+.message .message-text p {
+  background-image: linear-gradient(141deg, #1fc8db 0%, #6ee5f3 51%, #57bce2 75%);
+  color: #000000;
+  display: block;
+  padding: 5px;
+  border-radius: 4px;
+  /* margin-left: 60px; */
+}
+
+.message-list {
+  box-sizing: border-box;
+  width: 100%;
+  height: 300px;
+  overflow: scroll; 
+}
+
+.sendbutton {
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  outline: none;
+  border: none;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  text-align: center;
+  font-weight: bold;
+  padding: 0px;
+  background-color: #fff;
+}
+.sendbutton:hover{
+  cursor:pointer;
+  background-color: aliceblue;
+}

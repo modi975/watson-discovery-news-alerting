@@ -1,0 +1,7 @@
+language: node_js
+node_js: 10.8.0
+cache: yarn
+before_script:
+  - cd app
+  - yarn install
+script: yarn test && yarn lint
