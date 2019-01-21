@@ -5,7 +5,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/modi975/my_repo.git"
+    "url": "https://github.com/modi975/watson-discovery-news-alerting.git"
   },
   "dependencies": {
     "@cloudant/cloudant": "^2.3.0",
